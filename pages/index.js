@@ -12,7 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        See you soon 🚀
+        <Image src="/oval.svg" alt="TikTok Space Logo" width={48} height={48} />
+        <p>See you soon</p>
       </main>
     </div>
   )
